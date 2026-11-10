@@ -748,17 +748,15 @@ section {
 }
 
 
-/* DECORATIVE ICONS FOR PROJECT CARDS 1 AND 3 */
+/* DECORATIVE ICONS IN THE OPEN SPACE AFTER PROJECT DESCRIPTIONS */
 .project-card-decoration {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 9px;
-    align-self: flex-end;
-    margin-top: auto;
-    padding-top: 18px;
+    margin: 2px 0 18px;
     color: #78b8d8;
-    opacity: .9;
+    opacity: .95;
 }
 
 .project-card-decoration span {
