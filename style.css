@@ -704,3 +704,45 @@ section {
     font-size: 11px;
     font-weight: 700;
 }
+
+
+/* CONTACT SECTION ALIGNMENT */
+.contact-section {
+    width: 100%;
+    display: block;
+}
+
+.contact-section .section-heading {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.contact-card {
+    width: min(100%, 650px);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contact-item {
+    width: 100%;
+    min-width: 0;
+}
+
+.contact-item > div {
+    min-width: 0;
+}
+
+/* PROJECT STATUS */
+.project-status {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 20px;
+    padding: 8px 13px;
+    border-radius: 20px;
+    background: var(--light-blue);
+    color: #427b9c;
+    font-size: 11px;
+    font-weight: 700;
+}
