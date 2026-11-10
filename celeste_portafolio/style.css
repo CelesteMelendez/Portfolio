@@ -753,8 +753,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    align-self: flex-end;
+    flex: 0 0 auto;
     gap: 9px;
-    margin: 2px 0 18px;
+    margin: -10px 0 18px;
     color: #78b8d8;
     opacity: .95;
 }
