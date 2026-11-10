@@ -1,28 +1,131 @@
 # Celeste's Digital Portfolio
 
-A responsive student portfolio built with HTML, CSS, and JavaScript. The visual identity uses pastel blue, white, and navy blue.
+A responsive personal portfolio website created with **HTML, CSS, and JavaScript**. It presents an introduction, selected projects, skills, future goals, and contact information.
 
-## Files
-- `index.html` — page content and sections
-- `style.css` — colors, layout, responsive design, and visual styling
-- `script.js` — mobile navigation menu
+## Live website
 
-## Personalization still needed
-1. Add an appropriate profile photograph.
-2. Add real screenshots or photographs for the three selected projects.
-3. For each project, state exactly what you personally completed. In team projects, identify your individual contribution.
-4. Add working links to the project demo or repository where available.
-5. Confirm that each project is completed enough to present. The Visual Navigation Assistant description currently describes the proposed solution, not a verified finished product.
-6. Add your actual GitHub profile URL. An email address is not a GitHub profile link, so the GitHub button is intentionally left as a placeholder.
-7. Review whether each listed skill can be demonstrated through your work.
+[Open the portfolio](https://celestemelendez.github.io/Portfolio/)
+
+## Features
+
+- Responsive layout for desktop, tablet, and mobile.
+- Navigation menu with smooth section links.
+- Three featured projects.
+- Image preview for the Human Resources Analysis Dashboard.
+- Skills, future goals, and contact sections.
+- Back-to-top button.
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- GitHub Pages
+
+## Project structure
+
+```text
+Portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── celeste_portafolio/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── img/
+        ├── celeste-profile.png
+        └── Dashboard.png
+```
+
+The files in the repository root are the GitHub Pages entry point. The `celeste_portafolio/` folder contains a matching copy of the website files and the image assets.
+
+## Run locally
+
+1. Download or clone this repository.
+2. Open the repository folder in Visual Studio Code.
+3. Open `index.html` in a browser, or use the Live Server extension.
+4. Keep the `celeste_portafolio/img/` folder in place so the profile and dashboard images load.
 
 ## Publish with GitHub Pages
-1. Create a public GitHub repository, for example `digital-portfolio`.
-2. Upload `index.html`, `style.css`, and `script.js` to the root of the repository.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch `main` and folder `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site. Copy the website URL and the repository URL for submission.
 
-## Privacy
-The email address supplied for the portfolio is displayed publicly on the Contact section. Only keep it there if you are comfortable with it being visible to anyone who visits the website. Do not publish a home address, phone number, student ID, or private location.
+1. Open the repository **Settings**.
+2. Select **Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch `main` and folder `/ (root)`.
+5. Save and wait for GitHub Pages to finish publishing.
+
+## Personalization notes
+
+- Update project links when a public demo or repository is available.
+- The Visual Navigation Assistant is marked as a project in development until its public project link is ready.
+- Only publish contact details that you are comfortable making public.
+
+---
+
+# Portafolio digital de Celeste
+
+Un sitio web de portafolio personal y adaptable, creado con **HTML, CSS y JavaScript**. Presenta una introducción personal, proyectos seleccionados, habilidades, metas futuras e información de contacto.
+
+## Sitio web publicado
+
+[Visitar el portafolio](https://celestemelendez.github.io/Portfolio/)
+
+## Características
+
+- Diseño adaptable a computadoras, tabletas y teléfonos.
+- Menú de navegación con enlaces a las diferentes secciones.
+- Tres proyectos destacados.
+- Vista previa de la imagen del Dashboard de Análisis de Recursos Humanos.
+- Secciones de habilidades, metas futuras y contacto.
+- Botón para volver al inicio de la página.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- GitHub Pages
+
+## Estructura del proyecto
+
+```text
+Portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── celeste_portafolio/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── img/
+        ├── celeste-profile.png
+        └── Dashboard.png
+```
+
+Los archivos de la raíz del repositorio son los que utiliza GitHub Pages para publicar el sitio. La carpeta `celeste_portafolio/` contiene una copia equivalente de los archivos y las imágenes.
+
+## Cómo abrir el proyecto en tu computadora
+
+1. Descarga o clona este repositorio.
+2. Abre la carpeta del proyecto en Visual Studio Code.
+3. Abre `index.html` en un navegador o utiliza la extensión Live Server.
+4. Mantén la carpeta `celeste_portafolio/img/` en su ubicación para que se muestren la fotografía de perfil y la imagen del dashboard.
+
+## Cómo publicar con GitHub Pages
+
+1. Abre **Settings** en el repositorio.
+2. Selecciona **Pages**.
+3. En **Build and deployment**, elige **Deploy from a branch**.
+4. Selecciona la rama `main` y la carpeta `/ (root)`.
+5. Guarda los cambios y espera a que GitHub Pages termine de publicar.
+
+## Notas para personalizar
+
+- Actualiza los enlaces de los proyectos cuando tengas disponible una demostración o un repositorio público.
+- El Asistente de Navegación Visual aparece como un proyecto en desarrollo hasta que esté listo su enlace público.
+- Publica únicamente los datos de contacto que estés de acuerdo con compartir públicamente.
